@@ -15,23 +15,36 @@ nav{
     padding-left: 10em;
     padding-right: 10em;
     background-color: #f7ebe8;
+    
 }
 
-
+.main-nav{
+    border: solid #707070 0.15em;
+}
 
 nav ul li {
     width: 7em;
     list-style-type: none;
+    
+   
+}
+
+nav ul{
+    padding-top: 1em;
 }
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 li {
     list-style-type: none;
+    
 }
-
+.active{
+    color:#e54b4b;
+}
 .logo{
     font-family: 'Kaushan Script', cursive;
     font-size: 1.75em;
