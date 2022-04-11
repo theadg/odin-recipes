@@ -9,9 +9,21 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    padding-left: 10em;
+    padding-right: 10em;
 }
 
 
-nav ul{
-    width: 20%;
+
+nav ul li {
+    width: 7em;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
