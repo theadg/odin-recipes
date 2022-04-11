@@ -15,7 +15,9 @@ nav{
     padding-left: 10em;
     padding-right: 10em;
     background-color: #f7ebe8;
-    
+    /* height: 65px; */
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
 }
 
 .main-nav{
@@ -30,7 +32,7 @@ nav ul li {
 }
 
 nav ul{
-    padding-top: 1em;
+    padding-top: 0.25em;
 }
 
 a{
@@ -44,9 +46,22 @@ li {
 }
 .active{
     color:#e54b4b;
+    font-weight: bold;
 }
+
 .logo{
     font-family: 'Kaushan Script', cursive;
-    font-size: 1.75em;
+    font-size: 2em;
     color: #e54b4b;
+    margin: 0;
+    padding-top: 0.25em;
+}
+
+.cta{
+    width: 1.5em;
+    background-color: #e54b4b;
+    padding: 0.6em;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
 }
