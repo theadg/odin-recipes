@@ -93,8 +93,33 @@ section{
     margin: 0;
     height: 50px;
     width: 535px;
-    position: relative;
-    top: 225px;
+    position: relative; /*Relative because it is relative from its normal position*/
+    top: 225px;     /*This means it is 225px from the top of its normal position*/
     background-color: #e54b4b;
     border-radius: 15px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+ .recipe-name{
+     font-family: 'Futura';
+     font-size: 1.5em;
+     font-weight: 600;
+ }
+
+figcaption, .icon-name{
+    padding: 0.6em 0;
+    color: white;
+}
+
+.material-icons{
+    font-size: 1.2em !important;
+    color: white;
+     margin-top: 0.35em; 
+}
+
+.icon-name{
+    display: flex;
+
 }
