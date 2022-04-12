@@ -80,15 +80,27 @@ section{
     color: #e54b4b;
 }
 
+.food-recipes{
+    display: flex;
+}
 .food-tile{
     height: 275px;
     width: 535px;
-    background-image: url('../images/sinigang.png');
+    
     background-size: cover;
     background-position: center bottom; /*this is a lifesaver - eto yung ayos ng position nung bg image*/
     border-radius: 15px;
+    padding: 0;
+    margin: 5em  5em 5em 0;
 }
 
+/* Food Backgrounds */
+.food-bg-1{
+    background-image: url('../images/sinigang.png');
+}
+.food-bg-2{
+    background-image: url('../images/munggo.jpg');
+}
 .caption{
     margin: 0;
     height: 50px;
@@ -133,9 +145,7 @@ figcaption, .icon-name{
 
   .recipe-desc{
     position: relative; /*Relative because it is relative from its normal position*/
-    
     bottom: 60px;
- 
     width: 535px;
     color: white;
     opacity: 0;
@@ -143,6 +153,9 @@ figcaption, .icon-name{
     
 }  
 
+    .pad-adj{
+        padding-left: 1em;
+    }
 .food-tile:hover  .caption  {
     height: 100px;
     top: 175px;
