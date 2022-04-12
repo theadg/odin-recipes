@@ -92,14 +92,18 @@ section{
 .caption{
     margin: 0;
     height: 50px;
-    width: 535px;
+    max-width: 535px;
     position: relative; /*Relative because it is relative from its normal position*/
     top: 225px;     /*This means it is 225px from the top of its normal position*/
     background-color: #e54b4b;
     border-radius: 15px;
 
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+
+   
+    
 }
 
  .recipe-name{
@@ -121,5 +125,37 @@ figcaption, .icon-name{
 
 .icon-name{
     display: flex;
-
 }
+
+/* Tile hover effect */
+
+
+
+  .recipe-desc{
+    position: relative; /*Relative because it is relative from its normal position*/
+    
+    bottom: 60px;
+ 
+    width: 535px;
+    color: white;
+    opacity: 0;
+    padding: 1.25em ;
+    
+}  
+
+.food-tile:hover  .caption  {
+    height: 100px;
+    top: 175px;
+    transition: all 1s ease;
+   
+}
+.food-tile:hover  .recipe-desc{
+    opacity: 1;
+    bottom: 30px;
+    transition: all 1s ease;
+}
+
+
+
+
+
