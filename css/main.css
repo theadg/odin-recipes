@@ -169,6 +169,62 @@ figcaption, .icon-name{
 }
 
 
+/*Sinigang Recipe*/
+.bg-filler{
+    width: auto;
+    /* height: 350px; */
+    background-color: #e54b4b;
+    padding: 5em 25em 2em;
+    display: flex;
+}
 
+.recipe-heading{
+    margin: 0;
+    padding: 0;
+}
+.white{
+    color:#f7ebe8;
+    margin: 0;  
+    margin-top: 0.5em;
+}
 
+.big{
+    font-size: 4em;
+  
+}
 
+.show{
+    opacity: 1;
+}
+
+.recipe-descrip{
+ 
+    width: 535px;
+    color: white;
+}  
+
+.resize{
+    width: 500px;
+    height: 350px;
+    border-radius: 15px;
+    position: absolute;
+    top: 14.5em;
+    
+}
+
+.left{
+    width: 50vw;
+}
+
+.right{
+
+}
+
+.inline{
+    display: flex;
+    gap: 2em;
+}
+
+.pad-adj-bot{
+    padding-bottom: 0.25em;
+}
