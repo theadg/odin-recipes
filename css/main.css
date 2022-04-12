@@ -79,3 +79,22 @@ section{
     font-size: 2em;
     color: #e54b4b;
 }
+
+.food-tile{
+    height: 275px;
+    width: 535px;
+    background-image: url('../images/sinigang.png');
+    background-size: cover;
+    background-position: center bottom; /*this is a lifesaver - eto yung ayos ng position nung bg image*/
+    border-radius: 15px;
+}
+
+.caption{
+    margin: 0;
+    height: 50px;
+    width: 535px;
+    position: relative;
+    top: 225px;
+    background-color: #e54b4b;
+    border-radius: 15px;
+}
