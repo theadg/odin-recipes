@@ -157,14 +157,14 @@ figcaption, .icon-name{
         padding-left: 1em;
     }
 .food-tile:hover  .caption  {
-    height: 100px;
-    top: 175px;
+    height: 120px;
+    top: 155px;
     transition: all 1s ease;
    
 }
 .food-tile:hover  .recipe-desc{
     opacity: 1;
-    bottom: 30px;
+    bottom: 15px;
     transition: all 1s ease;
 }
 
