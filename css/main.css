@@ -193,6 +193,9 @@ figcaption, .icon-name{
     margin-top: 0.5em;
 }
 
+.white-real{
+    color:#f7ebe8;
+}
 .big{
     font-size: 4em;
   
@@ -230,20 +233,24 @@ figcaption, .icon-name{
 }
 
 .ingredients-block{
-
-   /* margin-top: em; */
    width: 450px;
    padding: 1.5em;
-   /* border: solid red 1px; */
    border-radius: 15px;
    background-color: #f7ebe8;;
 }
 
+.instructions-block{
+    margin-top: 4em;
+    width: 600px;
+    padding: 1.5em;
+    border-radius: 15px;
+    background-color: #e54b4b;
+ }
 .pad-left{
     padding-left: 0.5em;
 }
 
- .ingredients-list{
+ .ingredients-list, .instructions-list{
      line-height: 180%;
      
  }
@@ -264,4 +271,44 @@ figcaption, .icon-name{
 
 .pad-adj-bot{
     padding-bottom: 0.25em;
+}
+/* Right */
+
+.right{
+    width: 50vw;
+    padding-left: 5em;
+}
+
+.top{
+    margin-top: 2em;
+}
+/* Nutrition Facts */
+.nutrition-facts-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+.nutrition-small .upper, .lower{
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0;
+
+}
+
+.upper{
+    border: solid black 1px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #f7ebe8;
+    
+}
+
+.lower{
+    border: solid black 1px;
+    border-top: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    /* background-color: #f7ebe8; */
 }
