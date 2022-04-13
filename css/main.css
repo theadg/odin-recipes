@@ -312,3 +312,31 @@ figcaption, .icon-name{
     border-bottom-right-radius: 15px;
     /* background-color: #f7ebe8; */
 }
+
+
+/*extras */
+
+.food-tile-small{
+    display: flex;
+    gap: 2em;
+}
+.small{
+    max-width: 235px;
+    height: 170px;
+}
+
+.caption-small{
+    margin: 0;
+    height: 50px;
+    max-width: 535px;
+    position: relative; /*Relative because it is relative from its normal position*/
+    top: 120px;     /*This means it is 225px from the top of its normal position*/
+    background-color: #e54b4b;
+    border-radius: 15px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
