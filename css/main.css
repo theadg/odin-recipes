@@ -5,7 +5,7 @@ body{
     padding: 0;
     font-family: 'Comfortaa', sans-serif;
     width: 100%;
-    background-color: #f7ebe8;
+    background-color: white;
 }
 
 /* Start of NAV */
@@ -39,10 +39,10 @@ a{
     color: black;
 }
 
-li {
+/* li {
     list-style-type: none;
     
-}
+} */
 .active{
     color:#e54b4b;
     font-weight: bold;
@@ -176,8 +176,8 @@ figcaption, .icon-name{
 
 /*Sinigang Recipe*/
 .bg-filler{
-    width: auto;
-    /* height: 350px; */
+    max-width: auto;
+    max-height: 225px; 
     background-color: #e54b4b;
     padding: 5em 25em 2em;
     display: flex;
@@ -208,18 +208,52 @@ figcaption, .icon-name{
     color: white;
 }  
 
+
+/* Recipe Pic, Ingredients, Extras */
+.left{
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    /* height: 50vh; */
+    width: 50vw;
+    padding-top: 5em;
+    gap: 4em;
+
+}
+
 .resize{
     width: 500px;
     height: 350px;
     border-radius: 15px;
-    position: absolute;
-    top: 14.5em;
-    
+    /* position: absolute;  - ETO YUNG PATALO */
+   
 }
 
-.left{
-    width: 50vw;
+.ingredients-block{
+
+   /* margin-top: em; */
+   width: 450px;
+   padding: 1.5em;
+   /* border: solid red 1px; */
+   border-radius: 15px;
+   background-color: #f7ebe8;;
 }
+
+.pad-left{
+    padding-left: 0.5em;
+}
+
+ .ingredients-list{
+     line-height: 180%;
+     
+ }
+
+ .black{
+     color: black;
+ }
+
+
+
 
 
 
