@@ -86,8 +86,8 @@ section{
     gap: 5em; 
 }
 .food-tile{
-    height: 275px;
-    width: 535px;
+    width: 500px;
+    height: 350px;
     
     background-size: cover;
     background-position: center bottom; /*this is a lifesaver - eto yung ayos ng position nung bg image*/
@@ -111,7 +111,7 @@ section{
     height: 50px;
     max-width: 535px;
     position: relative; /*Relative because it is relative from its normal position*/
-    top: 225px;     /*This means it is 225px from the top of its normal position*/
+    top: 300px;     /*This means it is 225px from the top of its normal position*/
     background-color: #e54b4b;
     border-radius: 15px;
 
@@ -162,8 +162,8 @@ figcaption, .icon-name{
         padding-left: 1em;
     }
 .food-tile:hover  .caption  {
-    height: 120px;
-    top: 155px;
+    height: 140px;
+    top: 210px;
     transition: all 1s ease;
    
 }
