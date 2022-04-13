@@ -82,6 +82,8 @@ section{
 
 .food-recipes{
     display: flex;
+    margin-top: 4em;
+    gap: 5em; 
 }
 .food-tile{
     height: 275px;
@@ -91,7 +93,8 @@ section{
     background-position: center bottom; /*this is a lifesaver - eto yung ayos ng position nung bg image*/
     border-radius: 15px;
     padding: 0;
-    margin: 5em  5em 5em 0;
+    margin: 0;
+  
 }
 
 /* Food Backgrounds */
@@ -101,6 +104,8 @@ section{
 .food-bg-2{
     background-image: url('../images/munggo.jpg');
 }
+
+
 .caption{
     margin: 0;
     height: 50px;
