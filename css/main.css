@@ -83,6 +83,7 @@ section{
 .food-recipes{
     display: flex;
     margin-top: 4em;
+    flex-wrap: wrap;
     gap: 5em; 
 }
 .food-tile{
@@ -104,7 +105,12 @@ section{
 .food-bg-2{
     background-image: url('../images/munggo.jpg');
 }
-
+.food-bg-3{
+    background-image: url('../images/adobo.jpg');
+}
+.food-bg-4{
+    background-image: url('../images/bistek.jpg');
+}
 
 .caption{
     margin: 0;
@@ -228,6 +234,7 @@ figcaption, .icon-name{
     width: 500px;
     height: 350px;
     border-radius: 15px;
+    object-fit: cover;
     /* position: absolute;  - ETO YUNG PATALO */
    
 }
